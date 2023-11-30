@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: black;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px; /* Adjust the radius to control the roundness of the corners */
+   box-shadow: 2px 2px rgb(0, 0, 0) 0.8;
+   color: white;
+   transition: transform 0.3s ease;
+
+  
+  
+}
+.btn:hover{
+    color:black;
+    transform:scale(1.1)
+}
+
+
+

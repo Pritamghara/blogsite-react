@@ -1,0 +1,31 @@
+
+
+.addblog-container{
+    /* width: 60%; */
+    display: flex;
+    justify-content: center;
+  
+    
+
+
+}
+.addblog-container>form{
+    width: 60%;
+    margin-top: 3rem;
+    line-height: 1rem;
+}
+
+.addblog-container>form>div{
+   
+    font-size: 1.5rem;
+    color:white;
+}
+
+.addblog-container>form>:last-child{
+    
+    margin-top: 2rem;
+}
+.addblog-container>form>div>label{
+    padding:20px 0  20px 0 ;
+}
+

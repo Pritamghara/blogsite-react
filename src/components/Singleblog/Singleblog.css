@@ -1,0 +1,54 @@
+
+
+
+/* body{
+    color:white;
+    background-color: white;
+} */
+.single-container{
+    display: flex;
+    justify-content: center;
+    color:white;
+   
+    align-items: center;
+    height: auto;
+    margin-top: 40px;
+
+}
+.left-s{
+    width:30%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+.left-s>img{
+    width: 90%;
+    height: 90%;
+
+}
+.right-s{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    text-align: center;
+    gap: 1rem;
+    
+
+}
+.auth-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 20px;
+}
+.auth-name>:nth-child(1){
+    border-radius: 50%;
+    height: 4rem;
+    height: 3rem;
+}
+
+.right-s>h5{
+        text-align: left;
+}
